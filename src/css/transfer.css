@@ -1,0 +1,224 @@
+.conatainers{
+    position: absolute;
+}
+
+.tr{
+    margin-bottom: -5%;
+    margin-left: 3%;
+    font-size: 250%;
+}
+
+.tbox{
+    position: absolute;
+    width: 50%;
+    height: 40vh;
+    border: 2px solid #ea516f;
+    margin-top: 10%;
+    margin-left: 23.5%;
+}
+
+.in{
+    font-size: 180%;
+    margin-left: 3%;
+    font-weight: 800;
+}
+
+.inn{
+    font-size: 150%;
+    margin-left: 3%;
+    font-weight: 800;
+}
+
+.tin{
+    width:35%;
+    height: 5vh;
+    background-color: transparent;
+    color: #ededed;
+    font-weight: 500;
+    border: none;
+    border-bottom: 2px solid #ea516f;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.tin::placeholder{
+    color: #ededed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+.tin:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ea516f;
+}
+
+.tin2{
+    width:35%;
+    height: 5vh;
+    background-color: transparent;
+    color: #ededed;
+    font-weight: 500;
+    border: none;
+    border-bottom: 2px solid #ea516f;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+
+.tin2::placeholder{
+    color: #ededed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+.tin2:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ea516f;
+}
+
+.tin3{
+    position: absolute;
+    width:35%;
+    height: 5vh;
+    background-color: transparent;
+    color: #ededed;
+    font-weight: 500;
+    border: none;
+    border-bottom: 2px solid #ea516f;
+    margin-left: 53%;
+    margin-top: -23.5%;
+}
+
+.tin3::placeholder{
+    color: #ededed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+.tin3:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ea516f;
+}
+
+.tin4{
+    position: absolute;
+    width:35%;
+    height: 5vh;
+    background-color: transparent;
+    color: #ededed;
+    font-weight: 500;
+    border: none;
+    border-bottom: 2px solid #ea516f;
+    margin-left: 53%;
+    margin-top: -13.5%;
+}
+
+.tin4::placeholder{
+    color: #ededed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+.tin4:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ea516f;
+}
+
+.divider{
+    border: 2px solid #ea516f;
+    width: 0%;
+    height: 25vh;
+    margin-left: 49%;
+    margin-top: -20%;
+}
+
+.pbtn{
+    position: absolute;
+    width: 20%;
+    height: 3.5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    align-items: center;
+    border: 1px solid #ea516f ;
+    background-color: transparent;
+    color: #ededed;
+    border-radius: 10px;
+    margin-top: -4%;
+    margin-left: 77%;
+}
+
+.pbtn:hover{
+    width: 21%;
+    height: 4.5vh;
+    color: #ea516f;
+    cursor: pointer;
+}
+
+.pbtnn{
+    position: absolute;
+    width: 20%;
+    height: 3.5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    align-items: center;
+    border: 1px solid #ea516f ;
+    background-color: transparent;
+    color: #ededed;
+    border-radius: 10px;
+    margin-top: 15%;
+    margin-left: 30%;
+}
+
+.pbtnn:hover{
+    width: 21%;
+    height: 4.5vh;
+    color: #ea516f;
+    cursor: pointer;
+}
+
+.back{
+    position: absolute;
+    width: 20%;
+    height: 3.5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    align-items: center;
+    border: 1px solid #ea516f ;
+    background-color: transparent;
+    color: #ededed;
+    border-radius: 10px;
+    margin-top: 43.5%;
+    margin-left: 2%;
+}
+
+.back:hover{
+    width: 21%;
+    height: 4.5vh;
+    color: #ea516f;
+    cursor: pointer;
+}
+
+.backk{
+    position: absolute;
+    width: 70%;
+    height: 3.5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    align-items: center;
+    border: 1px solid #ea516f ;
+    background-color: transparent;
+    color: #ededed;
+    border-radius: 10px;
+    margin-top: 40%;
+    margin-left: -130%;
+}
+
+.backk:hover{
+    width: 71%;
+    height: 4.5vh;
+    color: #ea516f;
+    cursor: pointer;
+}

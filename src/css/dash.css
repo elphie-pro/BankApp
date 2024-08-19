@@ -1,0 +1,322 @@
+.contain{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 0%;
+    width: 20%;
+    height: 85vh;
+    background-color: transparent;
+    /* border: 3px solid #ea516f; */
+    border-radius: 5%;
+}
+
+.bal{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 4%;
+    width: 90%;
+    height: 30vh;
+    background-color: transparent;
+    border: 3px solid #ea516f;
+    border-radius: 5%;
+}
+
+.bal2{
+    position: absolute;
+    margin-top: 135%;
+    margin-left: 4%;
+    width: 90%;
+    height: 30vh;
+    background-color: transparent;
+    border: 3px solid #ea516f;
+    border-radius: 5%;
+}
+
+.box{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 25%;
+    width: 70%;
+    height: 45vh;
+    background-color: transparent;
+    border: 3px solid #ea516f;
+    /* border-radius: 2%; */
+    font-size: 165%;
+}
+
+.box2{
+    position: absolute;
+    margin-top: 28.5%;
+    margin-left: 25%;
+    width: 70%;
+    height: 30vh;
+    background-color: transparent;
+    border: 3px solid #ea516f;
+    /* border-radius: 5%; */
+}
+
+.title{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -0%;
+    color: #ededed;
+    font-weight: 800;
+}
+
+.tod{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 5%;
+    color: #ededed;
+}
+
+.new{
+    position: absolute;
+    margin-left: 28px;
+    margin-top: 10%;
+    font-weight: 700;
+    color: #ededed;
+    font-size: 70%;
+}
+
+.rate{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 10.5%;
+    font-weight: 800;
+    color: #ededed;
+}
+
+.titt{
+    font-size: 250%;
+    margin-left: 2%;
+    color: #ededed;
+    font-weight: 900;
+    margin-top: 0.5%;
+    margin-bottom: 0%;
+}
+
+.balcon{
+    width: 90%;
+    height: 25vh;
+    margin-left: 4.5%;
+    margin-top: 7.5%;
+    background-color: #ea516f;
+    border-radius: 20px;
+}
+
+.bb{
+    font-size: 160%;
+    margin-left: 2%;
+    margin-top: 4%;
+    font-weight: 800;
+}
+
+.money{
+    font-size: 150%;
+    font-weight: 800;
+    margin-top: -6%;
+    margin-left: 10%;
+}
+
+.trans{
+    margin-top: 30%;
+    margin-left: 3%;
+    width: 45%;
+    height: 3.5vh;
+    color: #ededed;
+    background-color: #161616;
+    border: 2px solid #161616;
+    border-radius: 20px;
+    font-weight: 800;
+}
+
+.with{
+    position: absolute;
+    margin-left: 46.5%;
+    margin-top: -10%;
+    width: 40%;
+    height: 3.5vh;
+    color: #ededed;
+    background-color: #161616;
+    border: 2px solid #161616;
+    border-radius: 20px;
+    font-weight:800;
+}
+
+.trans:hover{
+    cursor: pointer;
+    color: #ea516f;
+    width: 46%;
+    height: 4.5vh;
+}
+
+.with:hover{
+    cursor: pointer;
+    color: #ea516f;
+    width: 41%;
+    height: 4.5vh;
+}
+
+.add{
+    width: 45%;
+    height: 3.5vh;
+    color: #ededed;
+    background-color: #161616;
+    border: 2px solid #161616;
+    border-radius: 20px;
+    font-weight: 800;
+    margin-left: 26%;
+}
+
+.add:hover{
+        cursor: pointer;
+        color: #ea516f;
+        width: 46%;
+        height: 4.5vh;
+}
+
+.sel{
+    margin-bottom: -25%;
+    font-size: 140%;
+    font-weight: 800;
+    margin-left: 4%;
+}
+
+.ad{
+    font-size: 160%;
+    margin-left: 4%;
+    margin-top: 2%;
+    font-weight: 800;
+}
+
+.balcon2{
+    width: 90%;
+    height: 25vh;
+    margin-left: 4.5%;
+    margin-top: 7.5%;
+    background-color: #ea516f;
+    border-radius: 20px;
+}
+
+.air{
+    width: 45%;
+    height: 3.5vh;
+    color: #ededed;
+    background-color: #161616;
+    border: 2px solid #161616;
+    border-radius: 20px;
+    font-weight: 800;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.air:hover{
+    cursor: pointer;
+    color: #ea516f;
+    width: 46%;
+    height: 4.5vh;
+}
+
+.int{
+    position: absolute;
+    width: 40%;
+    height: 3.5vh;
+    color: #ededed;
+    background-color: #161616;
+    border: 2px solid #161616;
+    border-radius: 20px;
+    font-weight: 800;
+    margin-top: -10%;
+    margin-left: 47%;
+}
+
+.int:hover{
+    cursor: pointer;
+    color: #ea516f;
+    width: 41%;
+    height: 4.5vh;
+}
+
+.bet{
+    position: absolute;
+    width: 40%;
+    height: 3.5vh;
+    color: #ededed;
+    background-color: #161616;
+    border: 2px solid #161616;
+    border-radius: 20px;
+    font-weight: 800;
+    margin-left: 3%;
+}
+
+.bet:hover{
+    cursor: pointer;
+    color: #ea516f;
+    width: 41%;
+    height: 4.5vh;
+}
+
+.ele{
+    position: absolute;
+    width: 40%;
+    height: 3.5vh;
+    color: #ededed;
+    background-color: #161616;
+    border: 2px solid #161616;
+    border-radius: 20px;
+    font-weight: 800;
+    margin-left: 47%;
+    margin-top: -6%;
+}
+
+.ele:hover{
+    cursor: pointer;
+    color: #ea516f;
+    width: 41%;
+    height: 4.5vh;
+}
+
+.tran{
+    width: 45%;
+    height: 3.5vh;
+    color: #ededed;
+    background-color: #161616;
+    border: 2px solid #161616;
+    border-radius: 20px;
+    font-weight: 800;
+    margin-left: 27%;
+    margin-top: 3%;
+}
+
+.tran:hover{
+    cursor: pointer;
+    color: #ea516f;
+    width: 46%;
+    height: 4.5vh;
+}
+
+.hol{
+    margin-left: 3%;
+    font-weight: 800;
+    font-size: 130%;
+}
+
+.det{
+    position: absolute;
+    width: 15%;
+    height: 3.5vh;
+    color: #ededed;
+    background-color: #ea516f;
+    border: 2px solid #161616;
+    border-radius: 20px;
+    font-weight: 800;
+    margin-left: 80%;
+    margin-top: -2%;
+}
+
+.det:hover{
+    cursor: pointer;
+    color: #161616;
+    width: 16%;
+    height: 4.5vh;
+}

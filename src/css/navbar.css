@@ -1,0 +1,75 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav{
+    width: 101%;
+    height: 10vh;
+    background-color: #EA516F;
+    margin-top: -1%;
+    margin-left: -0.6%;
+}
+
+.text{
+    color: #EDEDED;
+    font-size: 160%;
+    margin-left: 2%;
+    position: absolute;
+    margin-top: 1.5%;
+    font-weight: 800;
+}
+
+.textt{
+    color: #161616;
+    font-size: 160%;
+    margin-left: 4.8%;
+    position: absolute;
+    margin-top: 1.6%;
+    font-weight: 800;
+}
+/* 
+.links{
+    position: absolute;
+    margin-left: 70%;
+} */
+
+ .one{
+    position: absolute;
+    color: #EDEDED;
+    font-size: 160%;
+    margin-top: 0.3%;
+    margin-left: 70%;
+    text-decoration: none;
+    font-weight: 800;
+ }
+
+ .two{
+    position: absolute;
+    color: #EDEDED;
+    font-size: 160%;
+    margin-top: 0.3%;
+    margin-left: 75.5%;
+    text-decoration: none;
+    font-weight: 800;
+ }
+
+ .three{
+    position: absolute;
+    color: #EDEDED;
+    font-size: 160%;
+    margin-top: 0.3%;
+    margin-left: 86.5%;
+    text-decoration: none;
+    font-weight: 800;
+ }
+
+ .links :hover{
+    color: #161616;
+ }
+
+ .copy {
+    color: #ededed;
+    font-weight: 800;
+    margin-top: 45.3%;
+    margin-left: 88%;
+ }

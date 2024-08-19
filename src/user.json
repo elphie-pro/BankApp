@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "id": "f868",
+      "user": "Admin",
+      "pass": "onaz",
+      "email": "onazjr@gmail.com",
+      "account": "Personal Account",
+      "deposit": 8000
+    },
+    {
+      "id": "6b86",
+      "user": "Saliu",
+      "pass": "onaz",
+      "email": "saliu@ani.com",
+      "account": "Work Account",
+      "deposit": 6000
+    },
+    {
+      "id": "126f",
+      "user": "femi",
+      "pass": "onaz",
+      "email": "femi@mail.com",
+      "account": "Personal Account",
+      "deposit": 8500
+    }
+  ]
+}
