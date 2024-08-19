@@ -4,7 +4,7 @@ import Homepage from './pages/Homepage'
 import Loginpage from './pages/Loginpage'
 import Createpage from './pages/Createpage'
 import Aboutpage from './pages/Aboutpage'
-import Dashboard from './pages/Dashboard'
+import Dashboard, {userLoader} from './pages/Dashboard'
 import Transferpage from './pages/Transferpage'
 import Withdrawpage from './pages/Withdrawpage'
 import Servicespage from './pages/Servicespage'
@@ -16,7 +16,7 @@ const router = createBrowserRouter(
     <Route path='/' element={<Homepage />}/>
     <Route path='/login' element={<Loginpage />} />
     <Route path='/create' element={<Createpage />} />
-    <Route path='/dash' element={<Dashboard/>}/>
+    <Route path='/dash' element={<Dashboard/>}loader={ userLoaderLoader } /> 
     <Route path='/about' element={<Aboutpage />} />
     <Route path='/transfer' element={<Transferpage/>}/>
     <Route path='/withdraw' element={<Withdrawpage/>}/>

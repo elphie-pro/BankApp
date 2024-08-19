@@ -5,7 +5,7 @@ import '../css/logs.css'
 import { toast } from 'react-toastify'
 
 const Createpage = () => {
-  const[user, setUser] = useState('')
+  const[username, setUsername] = useState('')
   const[pass, setPass] = useState('')
   const[email, setEmail] = useState('')
   const[account, setAccount] = useState('')
@@ -14,7 +14,7 @@ const Createpage = () => {
 const isValid = () => {
   let isProceed = true
   let errmessage = 'Please enter all the neccesary information'
-  if(user === '' || user === null){
+  if(username === '' || username === null){
     isProceed = false
     errmessage
   }
@@ -38,7 +38,7 @@ const isValid = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    let resobj = {user, pass, email, account, deposit}
+    let resobj = {username, pass, email, account, deposit}
     if(isValid()) {
 
     fetch("http://localhost:3000/user", {
@@ -60,8 +60,8 @@ const isValid = () => {
        
         <form onSubmit={handleSubmit}> 
           <p className='tit'>Create An Account</p>
-           <input type="text" placeholder='Username'  className='inp'value={user} onChange={(e) => {
-          setUser(e.target.value)
+           <input type="text" placeholder='Username'  className='inp'value={username} onChange={(e) => {
+          setUsername(e.target.value)
         }}/>
         <br />
         <input type="password" name="" placeholder='Password'  id="" className='inp2' value={pass} onChange={(e) => {

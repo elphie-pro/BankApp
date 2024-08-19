@@ -2,7 +2,7 @@
   "user": [
     {
       "id": "f868",
-      "user": "Admin",
+      "username": "Admin",
       "pass": "onaz",
       "email": "onazjr@gmail.com",
       "account": "Personal Account",
@@ -10,7 +10,7 @@
     },
     {
       "id": "6b86",
-      "user": "Saliu",
+      "username": "Saliu",
       "pass": "onaz",
       "email": "saliu@ani.com",
       "account": "Work Account",
@@ -18,7 +18,7 @@
     },
     {
       "id": "126f",
-      "user": "femi",
+      "username": "femi",
       "pass": "onaz",
       "email": "femi@mail.com",
       "account": "Personal Account",

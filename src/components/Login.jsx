@@ -6,64 +6,59 @@ import { toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
 const Login = () => {
-  const[user, setUser] = useState('')
+  const[username, setUsername] = useState('')
   const[pass, setPass] = useState('')
   const navigate = useNavigate()
 
-  const isValid= () => {
-   let isProceed = true
-   let errormessage = 'Input neccesary Information'
-    if (user === '' || user === null) {
-      isProceed = false
-      errormessage
+  const isValid = () => {
+    if (username === "" || pass === "") {
+      toast.warning("Please provide both username and password");
+      return false;
     }
-    if (pass === '' || pass === null) {
-      isProceed = false
-      errormessage
-    }
+    return true;
+  };
 
-    if(!isProceed) {
-      toast.warning(errormessage)
-    }
 
-    return isProceed
-  }
-
-  const ProceedLogin = (e) => {
+  const proceedLogin = (e) => {
     e.preventDefault();
-    if (isValid()) {
-        ///implentation
-        // console.log('proceed');
-        fetch("http://localhost:3000/user" + user).then((res) => {
-            if(!result.ok) {
-              throw new error()
-            }
-            return res.json();
-        }).then((resp) => {
-            //console.log(resp)
-            if (Object.keys(resp).length === 0) {
-                toast.error('Please Enter valid username');
-            } else {
-                if (resp.pass === pass) {
-                    toast.success('Success');
-                    navigate('/dash')
-                }else{
-                    toast.error('Please Enter valid credentials');
-                }
-            }
-        }).catch((err) => {
-            toast.error('Login Failed due to :' + err.message);
-        });
-    }
-}
+
+    if (!isValid()) return;
+
+  
+    fetch("http://localhost:3000/user")
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error("Failed to fetch username data");
+        }
+        return res.json();
+      })
+      .then((data) => {
+        // Find username by email
+        const user = data.find((u) => u.username === username);
+        if (user) {
+          // Check if password matches
+          if (user.pass === pass) {
+            toast.success("Login successful");
+            navigate("/dash");
+          } else {
+            toast.error("Incorrect password");
+          }
+        } else {
+          toast.error("Username not found");
+        }
+      })
+      .catch((err) => {
+        toast.error("Login failed: " + err.message);
+      });
+  };
 
   return (
     <>
       <div className="container">
         <p className='tit'>Login </p>
-        <form action="" onSubmit={ProceedLogin}>
-            <input type="text" placeholder='Username'  className='inp'value={user} onChange={(e) => {
-          setUser(e.target.value)
+        <form action="" onSubmit={proceedLogin}>
+            <input type="text" placeholder='Username'  className='inp'value={username} onChange={(e) => {
+          setUsername(e.target.value)
         }}/>
         <br />
         <input type="password" name="" placeholder='Password'  id="" className='inp2' value={pass} onChange={(e) => {
